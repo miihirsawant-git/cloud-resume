@@ -1,0 +1,173 @@
+{
+  "basics": {
+    "name": "Mihir Sawant",
+    "label": "Cloud Enthusiast | AWS certified Solutions Architect Associate",
+    "email": "miihirsawant@gmail.com",
+    "summary": "AWS and Linux entusiast with experience in the Networking, Computer Applications and Security",
+    "certificates": [{
+      "name": "Solutions Architect Associate",
+      "issueddate": "2022-10-07",
+      "issuer": "AWS",
+      "verify": "https://www.credly.com/badges/c0477e92-c50e-4190-a3b6-638f7d7f0764/public_url"
+    },
+    {
+        "name": "Developer Associate",
+      "estimateddate": "2022-02-31",
+      "issuer": "AWS",
+      "url": "https://aws.amazon.com/certification/certified-developer-associate/"
+    }],
+
+    "profiles": [{
+      "network": "Linkedin",
+      "username": "Mihir Sawant",
+      "url": "https://linkedin.com/in/miihirsawant"
+    },
+    {
+      "network": "AWS",
+      "username": "Mihir Sawant",
+      "resumeJSON": "https://resume.miihirsawant.com  "
+    },
+    {
+      "Blog": "Medium",
+      "username": "Mihir Sawant",
+      "url": "https://medium.com/@miihirsawant"
+    },
+    {
+      "Community": "Dev",
+      "username": "Mihir Sawant",
+      "url": "https://dev.to/miihirsawant"
+    }
+  ]
+  },
+  "Cloud Experience": [
+    {
+      "name": "Cloud Resume",
+      "type": "Challenge",
+      "urls":  "https://resume.miihirsawant.com",
+      "counter": "https://0vkjldnsv6.execute-api.us-east-1.amazonaws.com/dev/restapi",
+      "code": "https://github.com/miihirsawant-git/cloud-resume.git",
+      "dates": [
+              {"startDate": "2022-09-24"},
+              {"endDate": "Present"}],
+      "summary": ["Resume JSON", 
+      "Production on custom Domain Name",
+      "API invocation to DynamoDB counter"
+  ]},  
+  {
+      "name": "Container Of Cats",
+      "type": "Containerized Application",
+      "code": "https://github.com/miihirsawant-git/containerofcats",
+      "dates": [
+          {"startDate": "2022-09-5"},
+          {"endDate": "2022-09-28"}],
+      "summary": ["Docker based Web application",
+                  "Deployement of Docker image on ECS cluster - AWS Fargate",
+                  "Orchestration with Kubernetes"]    
+    },  
+    {
+      "name": "Pet-Cuddle-o-Tron",
+      "type": "Event-Driven Architecture",
+      "urlimg": "https://merlin.miihirsawant.com/pet-cuddle-o-tron.png",
+      "dates": [
+          {"startDate": "2022-09-18"},
+          {"endDate": "2022-09-24"}],
+      "summary": ["Serverless application to remind cuddles for the cat via SNS/SES",
+                  " API call Lambda compute function",
+                  "State Machine to make decision - logic for the application"]    
+    },
+    {
+      "name": "WordPress",
+      "type": "3-Tier Architecture",
+      "urlimg": "https://merlin.miihirsawant.com/wordpress-evolution.png",
+      "dates": [
+          {"startDate": "2022-09-10"},
+          {"endDate": "2022-09-18"}],
+      "summary": ["Evolution of the monolith architecture to be cloud-native elastic" ,
+                  "Automation with custom AMI build"
+  ]}
+    
+  ],
+
+  "education": [{
+    "institution": "Conestoga College",
+    "area": "IT Networking and Computer Applications Security",
+    "studyType": "Postgraduate",
+    "dates":[
+      {"startDate": "2021-05-17"},
+      {"endDate": "2022-08-20"}],
+    "score": "3.795/4"
+  },
+  {
+  "institution": "University of Mumbai",
+  "area": "Electronics Engineering",
+  "studyType": "Bachelors",
+  "dates": [
+      {"startDate": "2016-06-17"},
+      {"endDate": "2020-10-20"}],
+  "score": "7.44/10"
+}],
+
+  "skills": [
+    {
+    "name": "AWS",
+    "level": "Intermediate",
+    "keywords": [
+      "EC2",
+      "S3",
+      "Lambda",
+      "ECS",
+      "VPC",
+      "EFS/EBS",
+      "CloudFront",
+      "API Gateway",
+      "Auto Scaling Groups",
+      "Load Balancers",
+      "Firewalls",
+      "IAM/OU",
+      "Cognito",
+      "SG/NACLs",
+      "VPNs",
+      "Endpoints",
+      "Policy, Roles"
+    ]},
+    {
+    "name": "Linux",
+    "level": "Intermediate",
+    "keywords": [
+      "Ubuntu",
+      "Debian",
+      "Red Hat",
+      "Fedora"
+  ]
+},
+{
+  "name": "Networking",
+  "level": "Intermediate",
+  "keywords": [
+    "Firewalls",
+    "VPNs",
+    "Intrusion Systems",
+    "Protocols"
+]
+},
+  {    
+  "languages": [{
+    "name": "Python",
+    "level": "Beginner"
+  }]
+  }],
+  "projects": {
+    "name": "OSCAR EMR Implementation",
+    "description": "HIPAA compliant-secure infrastructure on private cloud",
+    "highlights": [
+      "Pfsense",
+      "Intrusion Systems",
+      "MariaDB"
+    ],
+    "dates": [{"startDate": "2021-05-17"},
+              {"endDate": "2022-08-20"}],
+    "roles": [
+      "Team Lead - Enterprise Applications Security"
+    ]
+  }
+}

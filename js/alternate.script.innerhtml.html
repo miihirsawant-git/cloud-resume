@@ -1,0 +1,12 @@
+<script type = "text/javascript"> 
+var apiUrl = "https://0vkjldnsv6.execute-api.us-east-1.amazonaws.com/dev/restapi";
+  fetch(apiUrl)
+  .then(response => response.json())
+  .then(data =>{
+      document.getElementById('body').innerHTML = data
+console.log(data)});
+</script>
+
+<!-- OR -->
+<!-- Bootstrap -->
+<script src="js/counter.js"></script>
