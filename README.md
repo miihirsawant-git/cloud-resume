@@ -22,7 +22,7 @@ Week 2:
 -   Deployment on custom domain name
 
 Week 3: 
--   Conversion into HTML/CSS
+-   Conversion into HTML/CSS (Credits to Gabor Havasi)
 -   IAM Role creation to authorize actions
 -   API Gateway call invocations 
 
